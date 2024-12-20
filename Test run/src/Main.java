@@ -34,7 +34,7 @@ public class Main {
 
         long endTime = System.currentTimeMillis();
         System.out.println("Total paths found: " + totalPaths);
-        System.out.println("Time taken: " + (endTime - startTime) / 1000.0 + " seconds");
+        System.out.println("Time taken: " + (endTime - startTime) + " ms");
         
         scanner.close();
     }
